@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/laury.penad@campusucc.edu.co/Untitled Notebook 2024-12-31 00:51:04"
+					"notebookPath": "/Workspace/Users/laury.penad@campusucc.edu.co/Pipelines/ETL_AdventureWorks2022/SalesOrder1"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
