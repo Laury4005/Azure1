@@ -5,14 +5,7 @@
 			{
 				"name": "Print DeparmentData",
 				"type": "DatabricksNotebook",
-				"dependsOn": [
-					{
-						"activity": "Copy deparment",
-						"dependencyConditions": [
-							"Skipped"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -30,7 +23,7 @@
 				}
 			},
 			{
-				"name": "Copy deparment",
+				"name": "Copy department",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
