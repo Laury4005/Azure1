@@ -9,10 +9,14 @@
 			"server": "DESKTOP-RDNARSQ",
 			"database": "AdventureWorks2022",
 			"encrypt": "mandatory",
-			"trustServerCertificate": false,
+			"trustServerCertificate": true,
 			"authenticationType": "SQL",
 			"userName": "LP",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU4N0Q0NzNDLUU2Q0MtNDdBOC05N0VCLTJDOTZBMTc4QTRCQV8xZDk3MDFiZC0zNWUxLTRjYWMtODc1NC1jZWU2YzMyOGY5ZTQiDQp9"
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyZTI3ZTYyYS01ZDQ4LTQ3NjktOWMyZS0yYzFhMTI4OTNhYTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeOnPremise",
+			"type": "IntegrationRuntimeReference"
 		}
 	}
 }
